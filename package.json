@@ -1,0 +1,23 @@
+{
+  "name": "allts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "tsc & webpack & node dist/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "webrtc-adapter": "^8.2.3",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}

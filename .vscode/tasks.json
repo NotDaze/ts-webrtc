@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		
+		{
+			//"type": "command",
+			"label": "build",
+			"type": "shell",
+			//"command": "rd /s /q dist & md dist & Xcopy /exclude:notypescript.txt /q /I /S \"./Public\" \"./dist/Public\" & tsc & node ./dist/app",
+			"command": "npm run main",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			
+		},
+		
+	],
+	
+	
+	
+}
